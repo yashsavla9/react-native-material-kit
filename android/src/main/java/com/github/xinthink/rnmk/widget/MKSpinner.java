@@ -319,9 +319,9 @@ public class MKSpinner extends View implements ReactCompoundView {
 
         canvas.rotate(containerAngle, getWidth() / 2f, getHeight() / 2f);  // rotate the whole spinner
         
-	if (rect != null) {
-	    canvas.drawArc(rect, arcStartAngle, arcSweepAngle, false, arcPaint);
-	}
+        if (rect != null) {
+            canvas.drawArc(rect, arcStartAngle, arcSweepAngle, false, arcPaint);
+        }
 
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {  // fix #69
             canvas.restore();

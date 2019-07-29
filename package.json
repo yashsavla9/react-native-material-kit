@@ -1,6 +1,6 @@
 {
-  "name": "react-native-material-kit",
-  "version": "0.5.1",
+  "name": "material-kit-wr",
+  "version": "1.0.0",
   "description": "Bringing Material Design to React Native",
   "main": "lib/index.js",
   "author": "Yingxin Wu <yingxinwu.g@gmail.com>",
@@ -20,11 +20,13 @@
     "material design",
     "MaterialKit"
   ],
-  "homepage": "https://github.com/xinthink/react-native-material-kit",
-  "bugs": "https://github.com/xinthink/react-native-material-kit/issues",
+  "homepage": "https://github.com/yashsavla9/react-native-material-kit",
+  "bugs": {
+    "url": "https://github.com/yashsavla9/react-native-material-kit/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/xinthink/react-native-material-kit.git"
+    "url": "git://github.com/yashsavla9/react-native-material-kit.git"
   },
   "devDependencies": {
     "@types/ramda": "^0.25.40",
