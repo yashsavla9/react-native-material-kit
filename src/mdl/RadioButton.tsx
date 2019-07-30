@@ -210,6 +210,9 @@ export default class RadioButton extends Component<RadioButtonProps, RadioButton
     }
 
     const padding = this.props.extraRippleRadius || DEFAULT_EXTRA_RIPPLE_RADII;
+    if ((width + padding - this.state.width) < 1 && (height + padding - this.state.height) < 1) {
+      return;
+    }
     this.setState({
       height: height + padding,
       width: width + padding,
